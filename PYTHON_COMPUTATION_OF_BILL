@@ -8,7 +8,7 @@
 RATE_PER_DAY = 1500
 # cost of aircon fee
 AIRCON_FEE = 500
-# cost of internet fee
+# cost of internet fee48
 INTERNET_FEE = 300
 # cost of  tv fee
 TV_FEE = 100
@@ -22,7 +22,7 @@ num_days = int(input("Enter the number of days: "))
 # Step 2: Compute the bill
 #this will compute the bill of a person
 # this is the formula
-amount is RATE_PER_DAY * num_days
+amount = RATE_PER_DAY * num_days
 # total amount is equals to amount + aircon fee + internet fee + tv fee
 total_amount = amount + AIRCON_FEE + INTERNET_FEE + TV_FEE
 #tax is equals to total amount X EVAT
