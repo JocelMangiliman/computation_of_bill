@@ -1,0 +1,35 @@
+#This is a program that will compute and display the hotel bill of a customer
+
+#This will ask you to provide number of days to compute the bill.
+# Hotel Bill Calculation
+
+# This is the given or the rate of everything to pay
+#This is the rate per day
+RATE_PER_DAY = 1500
+# cost of aircon fee
+AIRCON_FEE = 500
+# cost of internet fee
+INTERNET_FEE = 300
+# cost of  tv fee
+TV_FEE = 100
+# cost of EVAT
+EVAT = 0.12
+
+# Step 1: Accept the value for Number of Days
+# ask the number of days from user
+num_days = int(input("Enter the number of days: "))
+
+# Step 2: Compute the bill
+#this will compute the bill of a person
+# this is the formula
+amount is RATE_PER_DAY * num_days
+# total amount is equals to amount + aircon fee + internet fee + tv fee
+total_amount = amount + AIRCON_FEE + INTERNET_FEE + TV_FEE
+#tax is equals to total amount X EVAT
+tax = total_amount * EVAT
+ # then bill is equals to total amount + tax
+bill = total_amount + tax
+
+# Step 3: Display the bill
+# print the bill
+print("Bill =", bill)
